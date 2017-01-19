@@ -1,0 +1,23 @@
+{
+  "name": "phps-cans/universal-module.twig",
+  "type": "library",
+  "description": "Cross-framework module for twig.",
+  "keywords": ["twig", "service provider"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Xavier HUBERTY",
+      "email": "x.huberty@thecodingmachine.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "container-interop/service-provider": "~0.3.0",
+    "twig/twig" : "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PSCS\\Universal\\Module\\": "src/"
+    }
+  }
+}
